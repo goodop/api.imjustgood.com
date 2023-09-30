@@ -147,13 +147,12 @@ For Smule content, use the `smule` method with the Twitter username
 
 ### Youtube Downloader
 To download content from YouTube, use the `youtubedl` method. Provide the YouTube video URL as the parameter.
-
-    ```javascript
+   ```javascript
     // Example: Download a YouTube video
     const videoUrl = 'https://www.youtube.com/watch?v=your-video-id';
     const result = imjustgood.youtubedl(videoUrl);
     console.log(result);
-    ```
+   ```
 
 ### Instagram Post Downloader
 To download Instagram posts, use the `instapost` method with the Instagram post URL.
