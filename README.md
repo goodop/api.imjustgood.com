@@ -106,8 +106,8 @@ To retrieve YouTube content, use the `youtube` method. Provide the query as the 
    const result = imjustgood.youtube(query);
    console.log(result);
    ```
-### Tiktok
-For TikTok content, use the tiktok method. Pass the TikTok username as the parameter.
+### Tiktok Profile
+For TikTok content, use the `tiktok` method. Pass the TikTok username as the parameter.
 
    ```javascript
    // Example: Get TikTok content
@@ -116,8 +116,8 @@ For TikTok content, use the tiktok method. Pass the TikTok username as the param
    console.log(result);
 ```
 
-### Instagram
-To fetch content from Instagram, use the instagram method with the Instagram username.
+### Instagram Profile
+To fetch content from Instagram, use the `instagram` method with the Instagram username.
 
    ```javascript
    // Example: Get Instagram content
@@ -126,12 +126,73 @@ To fetch content from Instagram, use the instagram method with the Instagram use
    console.log(result);
    ```
 
-### Twitter
-For Twitter content, use the twitter method with the Twitter username
+### Twitter Profile
+For Twitter content, use the `twitter` method with the Twitter username
 
    ```javascript
    // Example: Get Twitter content
    const username = 'twitter-username';
    const result = imjustgood.twitter(username);
    console.log(result);
+   ```
+### Smule Profile
+For Smule content, use the `smule` method with the Twitter username
+
+   ```javascript
+   // Example: Get Smule content
+   const username = 'smule-username';
+   const result = imjustgood.smule(username);
+   console.log(result);
+   ```
+
+### Youtube Downloader
+To download content from YouTube, use the `youtubedl` method. Provide the YouTube video URL as the parameter.
+
+    ```javascript
+    // Example: Download a YouTube video
+    const videoUrl = 'https://www.youtube.com/watch?v=your-video-id';
+    const result = imjustgood.youtubedl(videoUrl);
+    console.log(result);
+    ```
+
+### Instagram Post Downloader
+To download Instagram posts, use the `instapost` method with the Instagram post URL.
+
+   ```javascript
+    // Example: Download an Instagram post
+    const postUrl = 'https://www.instagram.com/p/your-post-id/';
+    const result = imjustgood.instapost(postUrl);
+    console.log(result);
+   ```
+
+### Twitter Downloader
+For downloading Twitter videos or Photos, use the `twitterdl` method with the Twitter video URL.
+
+   ```javascript
+    // Example: Download a Twitter video or Photos
+    const Url = 'https://twitter.com/username/status/url';
+    const result = imjustgood.twitterdl(Url);
+    console.log(result);
+
+   ```
+### TikTok Downloader
+For TikTok video downloads, use the `tiktokdl` method. Pass the TikTok video URL as the parameter.
+
+   ```javascript
+    // Example: Download a TikTok video
+    const videoUrl = 'https://www.tiktok.com/@username/video/video-url';
+    const result = imjustgood.tiktokdl(videoUrl);
+    console.log(result);
+
+   ```
+
+### Smule Downloader
+For Smule video or Audio downloads, use the `smuledl` method. Pass the Smule Post URL as the parameter.
+
+   ```javascript
+    // Example: Download a Smule video or Audio
+    const videoUrl = 'https://www.smule.com/@username/url';
+    const result = imjustgood.smuledl(videoUrl);
+    console.log(result);
+
    ```
