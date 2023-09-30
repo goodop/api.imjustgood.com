@@ -4,7 +4,7 @@ This Node.js library provides easy access to the API.imjustgood.com API, allowin
 ```
 █ █▀▄▀█   █ █ █ █▀ ▀█▀ █▀▀ █▀█ █▀█ █▀▄
 █ █ ▀ █ █▄█ █▄█ ▄█  █  █▄█ █▄█ █▄█ █▄▀
-api media service bridge.
+api media service bridge for your code.
 ```
 <p>
     <a href="http://pypi.org/project/justgood" rel="nofollow">
