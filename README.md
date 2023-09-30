@@ -1,6 +1,28 @@
 # API.imjustgood.com
-
 This Node.js library provides easy access to the API.imjustgood.com API, allowing you to interact with various features and functionalities offered by the service.
+
+```
+█ █▀▄▀█   █ █ █ █▀ ▀█▀ █▀▀ █▀█ █▀█ █▀▄
+█ █ ▀ █ █▄█ █▄█ ▄█  █  █▄█ █▄█ █▄█ █▄▀
+api media service bridge.
+```
+<p>
+    <a href="http://pypi.org/project/justgood" rel="nofollow">
+        <img alt="PyPI" src="https://img.shields.io/pypi/v/justgood?label=PyPI" style="max-width:100%;">
+    </a>
+    <a href="http://pypi.org/project/justgood" rel="nofollow">
+        <img alt="Python" src="https://img.shields.io/pypi/pyversions/justgood?color=red&label=Python" style="max-width:100%;">
+    </a>
+    <a href="https://github.com/goodop/api.imjustgood.com" rel="nofollow">
+        <img alt="Update" src="https://img.shields.io/github/last-commit/goodop/api.imjustgood.com?color=green&label=Update" height="20" style="max-width:100%;">
+    </a>
+    <a href="https://github.com/goodop/api.imjustgood.com/blob/main/LICENSE" rel="nofollow">
+        <img alt="License" src="https://img.shields.io/github/license/goodop/api.imjustgood.com?color=green&label=Lincense" height="20" style="max-width:100%;">
+    </a>
+    <a href="https://www.npmjs.com/package/justgood" rel="nofollow">
+        <img alt="npm" src="https://img.shields.io/npm/v/justgood?label=npm">
+    </a>
+</p>
 
 ## Installation
 
