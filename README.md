@@ -68,7 +68,48 @@ imjustgood.status()
 ```
 ## License
 
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the BSD 3-Clause License. See the [LICENSE](https://github.com/goodop/api.imjustgood.com/blob/main/LICENSE) file for details.
 
 ## Documentation
 
+This library provides methods to scrape content from various social media platforms.
+
+### YouTube
+
+To retrieve YouTube content, use the `youtube` method. Provide the query as the parameter.
+
+```javascript
+// Example: Get YouTube content
+const query = 'your-query';
+const result = imjustgood.youtube(query);
+console.log(result);
+```
+### Tiktok
+For TikTok content, use the tiktok method. Pass the TikTok username as the parameter.
+
+```javascript
+// Example: Get TikTok content
+const username = 'tiktok-username';
+const result = imjustgood.tiktok(username);
+console.log(result);
+```
+
+### Instagram
+To fetch content from Instagram, use the instagram method with the Instagram username.
+
+```javascript
+// Example: Get Instagram content
+const username = 'instagram-username';
+const result = imjustgood.instagram(username);
+console.log(result);
+```
+
+### Twitter
+For Twitter content, use the twitter method with the Twitter username
+
+```javascript
+// Example: Get Twitter content
+const username = 'twitter-username';
+const result = imjustgood.twitter(username);
+console.log(result);
+```
