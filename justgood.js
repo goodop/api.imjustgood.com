@@ -95,11 +95,11 @@ class Imjustgood {
     }
 
     async chord(query) {
-        return this.Get(`/joox=${query}`);
+        return this.Get(`/chord=${query}`);
     }
 
     async smule(username) {
-        return this.Get(`/joox=${username}`);
+        return this.Get(`/smule=${username}`);
     }
 
     async smuledl(url) {
